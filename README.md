@@ -19,7 +19,9 @@ Divido mi tiempo libre entre deportes y video juegos con amigos, siendo mas espe
 
 Mi nombre es Carolina, tengo 40 años. Vivo en la zona de Tigre, pcia de Buenos Aires. Soy lic. en psicología y dirijo una institución dedicada a la inclusión social y educativa de niños y niñas con discapacidad.
 Me he formado y trabajdo por más de 15 años en el diagnóstico y tratamiento de niños con autismo.
-Actualmente participo del curso de programción en Digital House. Me motivan los desfíos y aprender.
+Actualmente participo del curso de programación en Digital House. Me motivan los desfíos y aprender.
+
+
 3- 
 PAGINAS SELECCIONADAS:
 
