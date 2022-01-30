@@ -17,7 +17,7 @@ Mi nombre es Mauro Masiero, tengo 25 años, soy de San Luis capital y estoy reci
 Me llamo Pedro, tengo 25 años y vivo en San Isidro. Me inicié en el curso con la idea de trabajar como programador a futuro. Actualmente trabajo por mi cuenta como trader de criptoactivos. 
 Divido mi tiempo libre entre deportes y video juegos con amigos, siendo mas especifico: futbol, gimnasio, salir a correr, boxeo y League of Legends
 
-Mi nombre es Carolina, tengo 40 años. Vivo en la zona de Tigre, pcia de Buenos Aires. Soy lic. en psicología y dirijo una institución dedicada a la inclusión social y educativa de niños y niñas con discapacidad.
+Mi nombre es Carolina, tengo 40 años. Vivo en la zona de Tigre, pcia de Buenos Aires.soy  Psicologa. dirijo  una instituc  dedicada a la inclusio social y educativa de personas con discapacidad.
 Me he formado y trabajdo por más de 15 años en el diagnóstico y tratamiento de niños con autismo.
 Actualmente participo del curso de programación en Digital House. Me motivan los desfíos y aprender.
 
