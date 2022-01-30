@@ -1,0 +1,23 @@
+{
+  "name": "faustine",
+  "version": "1.0.0",
+  "description": "Consignas:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauroma9/grupo_11_Faustine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauroma9/grupo_11_Faustine/issues"
+  },
+  "homepage": "https://github.com/mauroma9/grupo_11_Faustine#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
