@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+</head>
+<body>
+    <section class="formularioParaRegistro">
+        <form action="/formularioRegistro" method="POST">
+            <p>
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario">
+            </p>
+            <p>
+                <span>Usuario disponible</span><span>/</span><span>Usuario en uso</span>
+            </p>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </p>
+            <p>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password">
+            </p>
+            <p>
+                <label for="confirPassword">Confirmacion de contraseña</label>
+                <input type="password" name="confirPassword" id="confirPassword">
+            </p>
+            <p>
+                <span>Las contraseñas coinciden</span><span>/</span><span>Las contraseñas no coinciden</span>
+            </p>
+            <p>
+                <label for="correo">Correo electronico</label>
+                <input type="email" name="correo" id="correo">
+            </p>
+            <p>
+                <label for="confirCorreo">Confirmacion de correo electronico</label>
+                <input type="email" name="confirCorreo" id="confirCorreo">
+            </p>
+            <p>
+                <span>Los correos electronicos coinciden</span><span>/</span><span>Los correos electronicos no coinciden</span>
+            </p>
+            <p>
+                <span>
+                    <label for="terminos"></label>
+                    <input type="checkbox" name="terminos">
+                </span>
+                <span>He leido y acepto los</span><span><a href="https://www.google.com"> terminos y condiciones</a></span>
+            </p>
+            <p>
+                <button type="submit">CREAR CUENTA</button>
+            </p>
+        </form>
+
+    </section>
+    
+</body>
+</html>
