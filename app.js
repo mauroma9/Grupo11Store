@@ -2,10 +2,16 @@ const express = require("express");
 
 const app = express();
 
-app.listen("3000", function(){
+app.use(express.static(__dirname + '/'));
+
+app.listen("3030", function(){
     console.log("Faustine")
 });
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/views/home.html")
+});
+
+app.get("/carritoDeCompras", (req, res) => {
+    res.sendFile(__dirname + "/views/carritoDeCompras.html")
 });
