@@ -1,19 +1,82 @@
-.body1{
-    background-color: paleturquoise;
-    display: flexbox;
-    font-size: 20px;
-    width: 400px;
-	margin: 50px auto;
-	height: 400px;
-	padding: 0px 9px 0px 9px;
-    text-align: center;
-    justify-content: space-between;
-}       
-.button{
-    margin-top: 10px;
-     margin-bottom:10px; 
-     color: #FFF;
-     font-size: 40px;
-     text-align: center;
+.paginaLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.etiquetasDeLogin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.botonesDeLogin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
+}
+
+.cuentaYContraseña {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.linkOlvidasteContraseña {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.linkCrearCuenta {
+    font-size: 30px;
+}
+
+.boton1 {
+    width: 540px;
+    height: 40px;
+    border-radius: 3%;
+}
+
+.boton1:hover {
+    background-color: darkgray;
+    transition-property: background-color;
+    transition:
+        background-color, 0.3s;
+}
+
+.usuario {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.password {
+    font-size: 25px;
+    margin-top: 20px;   
+    position: relative;
+    left: 89px;
+
+}
+
+.barraDeUsuario {
+    width: 300px;
+    height: 25px;
+}
+
+.barraPassword {
+    width: 300px;
+    height: 25px;
+    margin-top: 20px;  
+    margin-right: 10px;
+}
+
+.iniciarSesion {
+    font-size: 25px;
 }
