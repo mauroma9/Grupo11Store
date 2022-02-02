@@ -33,5 +33,10 @@ PAGINAS SELECCIONADAS:
 
 Por que los elegimos: Los elegimos porque son marcas reconocidas en el entorno que elaboran productos de calidad y de diseño sofisticado, entre los 5 sitios hay una variedad entre marcas mas importantes y de menor relevancia, abarcando asi gran parte de la oferta en el mercado del tipo de productos que va a ofrecer el proyecto. Desde louis vouitton que es el tope de gama, hasta amphora, que si bien ofrece productos exclusivos, son mas accesibles y de mayor consumo masivo. 
 
+
+
+Tablero Trello:
+https://trello.com/b/s8WDMvfE/kanban-template
+
   
     
