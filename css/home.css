@@ -1,16 +1,14 @@
-body{
-    background-color: paleturquoise;
+.body1{
+    background-color:;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
+    font-size: medium;   
 }
 .productos{
     display: flex;
-    align-items: stretch;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
-    
+    align-self: stretch;
 }
+
 .derecha{
     display: flex;
     flex-direction: column;
@@ -19,8 +17,8 @@ body{
 .izquierda{
     display: flex;
     flex-direction: column;  
-    
 }
+
 .iconos{
     width: 100%;
     display: flex;
@@ -30,10 +28,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     box-sizing: content-box;
-    font-size: 18px;
-    
-    
-
+    font-size: 100px;
+    margin-top: 80px;
 }
 
 .modo-pago{
@@ -45,5 +41,60 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
     box-sizing: content-box;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 30px;
 
+}
+
+.bolsos1 {
+    width: 1005px;
+    height: 400px;
+}
+
+.mochilas1 {
+    width: 1005px;
+    height: 400px;
+}
+
+.bandoleras1 {
+    width: 1005px;
+    height: 400px;
+}
+
+.riñoneras1 {
+    width: 1004px;
+    height: 600px;
+   
+}
+
+.carteras1 {
+    width: 1004px;
+    height: 600px;
+
+}
+
+.bolsos1:hover {
+    transform: scale(1.1); 
+    opacity: 60%;
+}
+
+.mochilas1:hover {
+    transform: scale(1.1); 
+    opacity: 60%;
+}
+
+.bandoleras1:hover {
+    transform: scale(1.1); 
+    opacity: 60%;
+}
+
+.riñoneras1:hover {
+    transform: scale(1.1); 
+    opacity: 60%;
+}
+
+.carteras1:hover {
+    transform: scale(1.1);
+    opacity: 60%;
 }
