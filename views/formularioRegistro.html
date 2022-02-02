@@ -4,61 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/formularioRegistro.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
     <title>Formulario Registro</title>
 </head>
 <body>
     <section class="formularioParaRegistro">
         <form action="/formularioRegistro" method="POST">
-            <p>
-                <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" id="usuario">
-            </p>
-            <p>
-                <span>Usuario disponible</span><span>/</span><span>Usuario en uso</span>
-            </p>
-            <p>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
-            </p>
-            <p>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
-            </p>
-            <p>
-                <label for="password">Contraseña</label>
-                <input type="password" name="password" id="password">
-            </p>
-            <p>
-                <label for="confirPassword">Confirmacion de contraseña</label>
-                <input type="password" name="confirPassword" id="confirPassword">
-            </p>
-            <p>
-                <span>Las contraseñas coinciden</span><span>/</span><span>Las contraseñas no coinciden</span>
-            </p>
-            <p>
-                <label for="correo">Correo electronico</label>
-                <input type="email" name="correo" id="correo">
-            </p>
-            <p>
-                <label for="confirCorreo">Confirmacion de correo electronico</label>
-                <input type="email" name="confirCorreo" id="confirCorreo">
-            </p>
-            <p>
-                <span>Los correos electronicos coinciden</span><span>/</span><span>Los correos electronicos no coinciden</span>
-            </p>
-            <p>
-                <span>
-                    <label for="terminos"></label>
-                    <input type="checkbox" name="terminos">
-                </span>
-                <span>He leido y acepto los</span><span><a href="https://www.google.com"> terminos y condiciones</a></span>
-            </p>
-            <p>
-                <button type="submit">CREAR CUENTA</button>
-            </p>
+            <div class="contenedorTodosLosTitulos">
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Usuario</span>
+                </p>
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Nombre</span>
+                </p>
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Apellido</span>
+                </p>
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Contraseña</span>
+                </p>
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Confirmacion de contraseña</span>
+                </p>
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Correo electronico</span>
+                </p>
+                <p class="todosLosTitulos">
+                    <span class="titulosBoton">Confirmacion de correo electronico</span>
+                </p>
+            </div>
+            <div class="contenedorTodosLosBotones">
+                <p>
+                    <input type="text" name="usuario" id="usuario" class="botonDirecto">
+                </p>
+                <p>
+                    <input type="text" name="nombre" id="nombre" class="botonDirecto">
+                </p>
+                <p>
+                    <input type="text" name="apellido" id="apellido" class="botonDirecto">
+                </p>
+                <p>
+                    <input type="password" name="password" id="password" class="botonDirecto">
+                </p>
+                <p>
+                    <input type="password" name="confirPassword" id="confirPassword" class="botonDirecto">
+                </p>
+                <p>
+                    <input type="email" name="correo" id="correo" class="botonDirecto">
+                </p>
+                <p>
+                    <input type="email" name="confirCorreo" id="confirCorreo" class="botonDirecto">
+                </p>
+                <p class="terYC">
+                    <span>
+                        <label for="terminos"></label>
+                        <input type="checkbox" name="terminos">
+                    </span>
+                    <span>He leido y acepto los</span><span><a href="https://www.google.com"> terminos y condiciones</a></span>
+                </p>
+            </div>
+            <div class="crearCuenta">
+                <p>
+                    <button type="submit" class="crearCuentaBoton">CREAR CUENTA</button>
+                </p>
+            </div>
+            <span class="usuarioDisponibleONo">
+                <span class="usuarioVerde">El usuario esta disponible</span><span>/</span><span class="usuarioRojo">El usuario no esta disponible</span>
+            </span>
+            <span class="passwordCoincideONo">
+                <span class="passwordVerde">Las contraseñas coinciden</span><span>/</span><span class="passwordRojo">Las contraseñas no coinciden</span>
+            </span>
+            <span class="emailCoincideONo">
         </form>
 
     </section>
+    <span class="emailCoindiceONo">
+        <span class="emailVerde">Los correos electronicos coinciden</span><span>/</span><span class="emailRojo">Los correos electronicos no coinciden</span>
+    </span>
     
 </body>
 </html>
