@@ -14,7 +14,7 @@ body {
 }
 .logo-nav-container{
     display:flex; 
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -34,6 +34,9 @@ body {
     height: 100px;
 }
 
+.barra1 {
+    width: 400px;
+}
 footer{
     background-color: paleturquoise;
     width: 100%;
