@@ -56,14 +56,14 @@
 }
 
 .botonDirecto {
-    width: 350px;
+    width: 550px;
 }
 
 .crearCuentaBoton {
     width: 200px;
     height: 40px;
     border-radius: 5%;
-    margin-left: 90px;
+    margin-left: 210px;
 }
 
 .crearCuentaBoton:hover {
@@ -89,5 +89,13 @@
     position: relative;
     z-index: 10;
     bottom: 156px;
-    left: 630px;
+    left: 610px;
+}
+
+@media (min-width: 460px) {
+    /* agregar las reglas */
+}
+
+@media (min-width: 768px) {
+    /*agregar las reglas */
 }
