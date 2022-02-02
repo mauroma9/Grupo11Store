@@ -35,8 +35,10 @@ body {
 }
 
 .barra1 {
-    width: 400px;
+    width: 600px;
+    height: 30px;
 }
+
 footer{
     background-color: paleturquoise;
     width: 100%;
