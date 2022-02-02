@@ -56,3 +56,7 @@ footer{
 .footerfaustine li{
     list-style: none;
 }
+
+.listasMargenes {
+    margin: 20px;
+}
