@@ -1,0 +1,142 @@
+
+.elbody{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+
+
+.uno{
+    width: 30%;
+    position: absolute;
+    left:0;
+    height: 350px;
+    display: flex;
+}
+
+.unoa{
+    display: flex;
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    top:0px;
+    align-self:flex-start;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.unobe{
+    position: absolute;
+    height: 35%;
+    width: 100%;
+    bottom: 0px;
+    align-self:flex-end;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+
+.unobe img{
+    padding-right: 15px;
+}
+.dos{
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    right:0px;
+    display: flex;
+}
+
+.dosa{
+    width: 50%;
+    height: 65%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+h1{
+    padding-bottom: 10px;
+    font-size: 19pt;
+}
+.dosa1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+}
+
+.dosa2{
+    width: 100%;
+    height: 30%;
+    align-self: flex-end;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.dosa2 p{
+    padding: 5px;
+
+}
+
+.dosa3{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    display: inline;
+
+}
+
+.dosa3 p{
+    padding-bottom: 10px;
+   
+}
+.dosbe{
+    width: 50%;
+    height: 65%;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+
+}
+
+.dosce{
+    align-self: flex-end;
+    height: 35%;
+    width: 100%;
+    z-index: 10;
+}
+
+.mediosimg{
+    padding-top: 15px;
+}
+.mediosimg li {
+    display:inline;
+}
+
+.dosbe2{
+    z-index: 10;
+    align-self: flex-end;
+}
+
+.dosbe2 h2{
+    color: rgb(15, 15, 15);
+    padding-top: 35px;
+    font-size: 15pt;
+}

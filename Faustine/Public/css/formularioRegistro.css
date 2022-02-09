@@ -1,0 +1,118 @@
+.usuarioVerde {
+    color: green;
+}
+
+.usuarioRojo {
+    color: red;
+}
+
+.passwordVerde {
+    color: green;
+}
+
+.passwordRojo {
+    color: red;
+}
+
+.emailVerde{
+    color: green;
+}
+
+.emailRojo {
+    color: red;
+}
+
+.formularioParaRegistro {
+    background-image: url(/images/imagenFondoLogin-01.jpg);
+    background-size: contain;
+    background-color: #FFFAF0;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    font-weight: bold;
+    
+    
+}
+
+.contenedorTodosLosTitulos {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 0px;
+    margin-right: 10px;
+
+    
+}
+
+.contenedorTodosLosBotones {
+    display: inline-flex;
+    flex-direction: column;
+    
+  
+}
+
+
+.crearCuenta {
+    display: flex;
+    justify-content: center;
+}   
+
+.todosLosTitulos {
+    margin-top: 20px;
+}
+
+.botonDirecto {
+    width: 600px;
+    
+}
+
+.crearCuentaBoton {
+    width: 200px;
+    height: 40px;
+    border-radius: 5%;
+    margin-left: 210px;
+    margin-right: -50px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5%;
+    color: black;
+    background-color: #e6d8cc;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.crearCuentaBoton:hover {
+    background-color: #cde4e7;
+    transition-property: background-color;
+    transition:
+        background-color, 0.3s;
+}
+
+.usuarioDisponibleONo {
+    position: relative;
+    bottom: 460px;
+    left: 255px;
+}
+
+.passwordCoincideONo {
+    position: relative;
+    bottom: 243px;
+    right: 129px;
+}
+
+.emailCoindiceONo {
+    position: relative;
+    z-index: 10;
+    bottom: 156px;
+    left: 610px;
+}
+
+@media (min-width: 460px) {
+    /* agregar las reglas */
+}
+
+@media (min-width: 768px) {
+    /*agregar las reglas */
+}

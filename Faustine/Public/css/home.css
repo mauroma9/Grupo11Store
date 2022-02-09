@@ -1,0 +1,120 @@
+.body1{
+    background-color:#FFFAF0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;   
+}
+
+    
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    
+    align-self: stretch;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;  
+}
+
+.iconos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    box-sizing: content-box;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.modo-pago{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: content-box;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+
+}
+
+.bolsos1 {
+    width: 950px;
+    height: 600px;
+}
+.bolsos p{
+    font-size: 50px;
+    margin-top: -100px;
+    margin-left: 700px;
+}
+
+
+.mochilas1 {
+    width: 950px;
+    height: 600px;
+}
+.mochilas p{
+    font-size: 50px;
+    margin-top: -100px;
+    margin-left: 700px;
+}
+
+.bandoleras1 {
+    width: 950px;
+    height: 600px;
+}
+.bandoleras p{
+    font-size: 50px;
+    margin-top: -100px ;
+    margin-left: 650px;
+}
+.carteras1 {
+    width: 950px;
+    height: 600px;
+}
+.carteras p{
+    font-size: 50px;
+    margin-top: -100px ;
+    margin-left: 700px;
+
+}
+
+.bolsos1:hover {
+    transform: scale(0.9); 
+    opacity: 70%;
+   
+}
+
+
+.mochilas1:hover {
+    transform: scale(0.9); 
+    opacity: 70%;
+   
+}
+
+.bandoleras1:hover {
+    transform: scale(0.9); 
+    opacity: 70%;
+   
+}
+
+
+
+.carteras1:hover {
+    transform: scale(0.9); 
+    opacity: 70%;
+}
+
